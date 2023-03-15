@@ -1,0 +1,256 @@
+.title{
+text-align: center;
+
+
+}
+.title1{
+text-align: center;
+padding:20px;
+background-color: coral;
+}
+.navbar{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.navi-bar{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	justify-content: space-evenly;
+	column-gap: 10px;
+
+}
+
+*a{
+	list-style: none;
+	text-decoration: none;
+	}
+ 
+*li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.btn{
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+}
+/*catalogue page*/
+.products{
+	display:grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(5, 1fr);
+	justify-content: center;
+	   grid-gap: 5px;
+}.official{
+	grid-column: 2/3;
+	border: 1px #000000 groove;
+}
+.casual{
+	grid-column: 3/4;
+	border: 1px #000000 groove;
+}
+.athletic{
+	grid-column: 4/5;
+	border: 1px #000000 groove;
+}
+.official-title,.casual-title,.athletic-title{
+	text-align: center;
+	font-size: 1.3em;
+	font-family:Arial ;
+	font-weight: 400;
+}
+#official,#casual,#athletic{
+	width:100%;
+	height:200px;
+}
+.products-1{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns:repeat(5, 1fr) ;
+justify-content: center;
+   grid-gap: 5px;
+}
+.shoes{
+	grid-column: 2/3;
+	border: 1px #000000 groove;
+}
+.bags{
+	grid-column: 3/4;
+	border: 1px #000000 groove;
+}
+.bedroom-linen{
+	grid-column: 4/5;
+	border: 1px #000000 groove;
+}
+.shoes-title,.bags-title,.bedroom-title{
+	text-align: center;
+	font-size: 1.3em;
+	font-family:Arial ;
+	font-weight: 400;
+}
+#shoes,#bedroom,#bags{
+	width:100%;
+	height:200px;
+}
+
+
+.products-2{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    grid-gap: 5px;
+}
+.lingerie{
+	grid-column: 2/3;
+	border: 1px #000000 groove;
+}
+.traditional{
+	grid-column: 3/4;
+	border: 1px #000000 groove;
+}
+.hats{
+	grid-column: 4/5;
+	border: 1px #000000 groove;
+}
+
+
+.lingerie-title,.traditional-title,.hats-title{
+	text-align: center;
+	font-size: 1.3em;
+	font-family:Arial ;
+	font-weight: 400;
+}
+
+#trad,#hat{
+width: 100%;
+height: 200px;
+}
+.btn{
+	display: flex;
+	padding:auto;
+	justify-content: center;
+	margin: 0% 40% 0% 40%;
+}
+
+
+.boundary{
+display:flex;
+width:fit-content;
+line-height: 1.5;
+}
+.row3{
+display:flex;
+flex-direction:row;
+}
+.men,.women,.children{
+text-align: center;
+font-size: 1.5em;
+padding: 10px;
+background-color: lawngreen;
+}
+#men,#women,#kids{
+width: 100%;
+
+}
+.footer{
+padding:10px;
+background-color: olivedrab;
+}
+
+*li{
+text-decoration: none;
+list-style: none;
+}
+*a{
+list-style: none;
+text-decoration: none;
+}
+ 
+/*jerseys*/
+.french{
+
+}
+
+
+
+/*shoes-page*/
+.shoes-rack1{
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: 1fr;
+padding:60px;
+margin: 60px;
+justify-content: center;
+align-items: center;
+grid-gap:10px;
+}
+.office-shoes{
+	grid-column: 2/3;
+	border: 1px #001000 groove;
+}
+.casual-shoes{
+	grid-column: 3/4;
+		border: 1px #001000 groove;
+}
+.sporty-shoes{
+	grid-column: 4/5;
+		border: 1px #001000 groove;
+}
+
+
+.shoes-rack2{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr;
+	padding:60px;
+	margin: 60px;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 10px; 
+}
+.cleats-shoes{
+	grid-column: 2/3;
+	border: 1px #001000 groove;
+}
+.school-shoes{
+	grid-column: 3/4;
+	border: 1px #001000 groove;
+}
+.baby-shoes{
+grid-column: 4/5;
+border: 1px 001000 groove;
+}
+.shoes-rack3{
+display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr;
+	padding:60px;
+	margin: 60px;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 10px;
+}
+.safety-shoes{
+	grid-column: 2/3;
+	border: 1px #001000 groove;
+}
+.stlish-shoes{
+	grid-column: 3/4;
+	border: 1px #001000 groove;
+}
+.sandals-shoes{
+	grid-column: 4/5;
+	border: 1px #001000 groove;
+}
+
+.official-shoes,.casual-shoe,.sporty,.cleats,.school,.baby,.safety,.stylish,.sandals{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+}
